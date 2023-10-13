@@ -6,6 +6,14 @@
     <link rel="stylesheet" type="text/css" href="{{ asset("css/style.css") }}">
 </head>
 <body>
+<header>
+    <div id="div-title">
+        <a id="page-title" href="{{ path("home") }}"><span>Evergarden</span></a>
+        <nav>
+            <a href="{{ path("home") }}">Accueil</a>
+        </nav>
+    </div>
+</header>
 {% block main %}{% endblock %}
 </body>
 </html>

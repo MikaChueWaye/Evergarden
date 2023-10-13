@@ -5,3 +5,17 @@
     font-family: "Courier New", system-ui;
     color: black;
 }
+
+header {
+    background-color: rgba(255, 192, 203, 0.5);
+    padding: 10px 10px 10px 10px
+}
+
+#div-title {
+    display: flex;
+    flex-direction: row;
+}
+
+#div-title * {
+    margin: 0 10px 0 10px;
+}
