@@ -51,6 +51,9 @@
 # Embedded web-server pid file
 /.web-server-pid
 
+# idea folder #
+/.idea/
+
 ###> symfony/framework-bundle ###
 /.env.local
 /.env.local.php
